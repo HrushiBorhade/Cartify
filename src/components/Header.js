@@ -23,7 +23,7 @@ const Header = () => {
           <FormControl
             style={{ width: 500 }}
             type="search"
-            placeholder="Search a product..."
+            placeholder="Search a Product."
             className="m-auto"
             aria-label="Search"
           />

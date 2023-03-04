@@ -13,7 +13,7 @@ function Home() {
       <Filters />
       <div className="productContainer">
         {products.map((prod) => {
-          return <SingleProduct prod={prod} />;
+          return <SingleProduct key={prod.id} prod={prod} />;
         })}
       </div>
     </div>
